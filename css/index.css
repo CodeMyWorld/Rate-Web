@@ -1,4 +1,17 @@
-.card{
-	height: 20px,
-	width:20%;
+.marker{
+    width: 150px;
+    height: 80px
+}
+
+.currency_name{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.currency_code{
+    margin-bottom: 0;
+}
+
+.rate_value{
+    margin: 5px 5px 5px 5px;
 }

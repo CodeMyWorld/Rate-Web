@@ -5,6 +5,7 @@
     <title>Rate</title>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/semantic.min.js"></script>
+    <script src="http://www.webglearth.com/v2/api.js"></script>
     <script src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -12,53 +13,54 @@
 <body>
 <div class="ui container">
     <div class="ui three column grid">
-     <div class="row">
-        <div class="column">
-  <div class="ui items">
-  <div class="item" id="test">
-    <div class="image">
-      <img src="image/cn.svg">
+        <div class="row">
+            <h5 class="header">Rate</h5>
+        </div>
+        <div class="row">
+            <div class="four column">
+
+            </div>
+            <div class="four column">
+                <table class="top attached ui basic table">
+                    <thead>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><img class="ui image circular tiny" src="image/cn.svg"></td>
+                        <td><span class="header">CNY</span></td>
+                        <td>Cell</td>
+                        <td>History</td>
+                    </tr>
+                    <tr>
+                        <td><img class="ui image tiny" src="image/cn.svg"></td>
+                        <td><span class="header">CNY</span></td>
+                        <td>Cell</td>
+                        <td>History</td>
+                    </tr>
+                    <tr>
+                        <td><img class="ui image tiny" src="image/cn.svg"></td>
+                        <td><span class="header">CNY</span></td>
+                        <td>Cell</td>
+                        <td>History</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+    <div class="row">
+    <div class="three column">
+
     </div>
-    <div class="content">
-      <a class="header">Header</a>
-      <div class="meta">
-        <span>Description</span>
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        Additional Details
-      </div>
     </div>
-  </div>
-  <div class="item">
-    <div class="image">
-      <img src="image/hk.svg">
-    </div>
-    <div class="content">
-      <a class="header">Header</a>
-      <div class="meta">
-        <span>Description</span>
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        Additional Details
-      </div>
-    </div>
-  </div>
 </div>
-        </div>
-        <div class="column">
-            Chinese Yuan
-        </div>
-        <div class="column">
-            Fuck
-        </div>
-    </div>
-    </div>
-</div>
+
+    <div id="earth_div" style="width:100%;height:800px;border:1px solid gray; padding:2px;"></div>
 </body>
 </html>
