@@ -5,62 +5,44 @@
     <title>Rate</title>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/semantic.min.js"></script>
-    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script src="js/webglearth.js"></script>
     <script src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-<div class="ui container">
-    <div class="ui three column grid">
-        <div class="row">
-            <h5 class="header">Rate</h5>
+
+<div class="ui stackable menu">
+    <div class="ui container menu_item">
+        <a class="item logo" href="/">
+            <b>MuRate</b>
+        </a>
+
+        <div class="right menu">
+            <a class="ui item">Sign In</a>
+            <a class="ui item">Sign Up</a>
         </div>
-        <div class="row">
-            <div class="four column">
-
-            </div>
-            <div class="four column">
-                <table class="top attached ui basic table">
-                    <thead>
-                    <th>Header</th>
-                    <th>Header</th>
-                    <th>Header</th>
-                    <th>Header</th>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><img class="ui image circular tiny" src="image/cn.svg"></td>
-                        <td><span class="header">CNY</span></td>
-                        <td>Cell</td>
-                        <td>History</td>
-                    </tr>
-                    <tr>
-                        <td><img class="ui image tiny" src="image/cn.svg"></td>
-                        <td><span class="header">CNY</span></td>
-                        <td>Cell</td>
-                        <td>History</td>
-                    </tr>
-                    <tr>
-                        <td><img class="ui image tiny" src="image/cn.svg"></td>
-                        <td><span class="header">CNY</span></td>
-                        <td>Cell</td>
-                        <td>History</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-
-
-    <div class="row">
-    <div class="three column">
-
-    </div>
     </div>
 </div>
 
-    <div id="earth_div" style="width:100%;height:800px;border:1px solid gray; padding:2px;"></div>
+<div class="ui container three column grid">
+    <div class="row">
+        <div class="one column">
+            <div class="ui two column grid link">
+                <div class="column">
+                    <div class="ui image small">
+                        <img src="image/us.svg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="header">USD</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="earth_div" style="width:100%;height:800px"></div>
+    </div>
+</div>
 </body>
 </html>

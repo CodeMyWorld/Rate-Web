@@ -15,3 +15,15 @@
 .rate_value{
     margin: 5px 5px 5px 5px;
 }
+
+.logo{
+    font-size: x-large;
+}
+
+.menu_item{
+    font-size: large;
+}
+
+.card{
+    width: 10px;
+}
