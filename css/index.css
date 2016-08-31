@@ -27,3 +27,7 @@
 .card{
     width: 10px;
 }
+
+.base_currency_info > row{
+    padding: 2px;
+}
